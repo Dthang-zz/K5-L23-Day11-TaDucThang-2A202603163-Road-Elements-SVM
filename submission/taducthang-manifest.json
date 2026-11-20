@@ -1,0 +1,50 @@
+{
+  "manifest": "road-delivery/1",
+  "format": "CVAT for images 1.1",
+  "guideline": "Road v1.0",
+  "name": "taducthang",
+  "revision": 1,
+  "created_at": "2026-11-20T16:19:40+00:00",
+  "files": [
+    {
+      "file": "taducthang-front.zip",
+      "bytes": 11279,
+      "sha256": "7977ea95d84e124022b75c77001e45b81d3849439c03f958972719cb7c6650be",
+      "contains_images": false,
+      "images": 16,
+      "images_unlabelled": 0,
+      "images_all_tags": 16,
+      "shapes_by_label": {
+        "crosswalk": 5,
+        "drivable": 26,
+        "lane": 36,
+        "road_curb": 17,
+        "traffic_light": 51,
+        "traffic_sign": 46
+      }
+    },
+    {
+      "file": "taducthang-fisheye.zip",
+      "bytes": 19031,
+      "sha256": "69f3c4138f0cbfff167124a96a78dd3be1f7724ec1e85c10d6789bced5e9a141",
+      "contains_images": false,
+      "images": 12,
+      "images_unlabelled": 0,
+      "images_all_tags": 12,
+      "shapes_by_label": {
+        "crosswalk": 11,
+        "drivable": 11,
+        "lane": 5,
+        "road_curb": 2,
+        "traffic_light": 13,
+        "traffic_sign": 7
+      }
+    }
+  ],
+  "lint": {
+    "nặng": 5,
+    "chính": 0,
+    "nhẹ": 0
+  },
+  "note": "Tạo bởi road_check lint. Mô tả file đã gửi, không phải kết luận chất lượng."
+}
